@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Stick+No+Bills:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <script defer src="./index.js"></script>
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="frame-outer">
+        <div class="frame-inner">
+          <div class="sc-line">
+            <div class="line"></div>
+          </div>
+          <div class="calc">
+            <div class="dummy"></div>
+            <div class="temp-display"></div>
+            <div class="display"></div>
+            <div class="hr"></div>
+            <div class="key-pad">
+              <div class="key" onclick="cl()">
+                <p class="operators">AC</p>
+              </div>
+              <div class="key" onclick="del()">
+                <p class="operators">DEL</p>
+              </div>
+              <div class="key" onclick="mod()"><p class="operators">%</p></div>
+              <div class="key" onclick="division()">
+                <p class="operators">/</p>
+              </div>
+              <div class="key" onclick="seven()"><p class="numbers">7</p></div>
+              <div class="key" onclick="eight()"><p class="numbers">8</p></div>
+              <div class="key" onclick="nine()"><p class="numbers">9</p></div>
+              <div class="key" onclick="multiply()">
+                <p class="operators">x</p>
+              </div>
+              <div class="key" onclick="four()"><p class="numbers">4</p></div>
+              <div class="key" onclick="five()"><p class="numbers">5</p></div>
+              <div class="key" onclick="six()"><p class="numbers">6</p></div>
+              <div class="key" onclick="minus()">
+                <p class="operators">-</p>
+              </div>
+              <div class="key" onclick="one()"><p class="numbers">1</p></div>
+              <div class="key" onclick="two()"><p class="numbers">2</p></div>
+              <div class="key" onclick="three()"><p class="numbers">3</p></div>
+              <div class="key" onclick="plus()"><p class="operators">+</p></div>
+              <div class="key at-the-r" onclick="changeTheme()">
+                <p class="operators">@</p>
+              </div>
+              <div class="key" onclick="zero()"><p class="numbers">0</p></div>
+              <div class="key" onclick="point()">
+                <p class="operators">.</p>
+              </div>
+              <div class="key equal-to" onclick="equal()">
+                <p class="operators">=</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.main {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-outer {
+  width: 310px;
+  height: 600px;
+  background-color: black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-inner {
+  width: 295px;
+  height: 585px;
+  background-color: white;
+  border-radius: 35px;
+}
+
+.sc-line {
+  display: flex;
+  justify-content: center;
+  flex-direction: block;
+}
+.line {
+  width: 85px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dummy {
+  height: 101px;
+}
+.temp-display {
+  height: 100px;
+  width: 270px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #318d22;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  text-align: end;
+}
+
+.display {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ".";
+  font-size: 30px;
+  font-weight: 700;
+  width: 270px;
+  height: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  text-align: end;
+}
+.hr {
+  height: 6px;
+  background-color: #111111;
+  width: 99%;
+}
+.key-pad {
+  height: 285px;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.key {
+  width: 73px;
+  height: 57px;
+  color: white;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.operators {
+  color: #318d22;
+}
+
+.equal-to {
+  border-bottom-right-radius: 35px;
+}
+
+.at-the-r {
+  border-bottom-left-radius: 35px;
+}
+
+/* toggle color */
+
+.theme-green {
+  color: #318d22;
+}
+
+.theme-white {
+  color: white;
+}
