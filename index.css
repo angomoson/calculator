@@ -18,20 +18,20 @@ p {
 }
 
 .frame-outer {
-  width: 310px;
+  width: 305px;
   height: 600px;
   background-color: black;
-  border-radius: 40px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .frame-inner {
-  width: 295px;
+  width: 290px;
   height: 585px;
   background-color: white;
-  border-radius: 35px;
+  border-radius: 45px;
 }
 
 .sc-line {
@@ -84,10 +84,10 @@ p {
 .hr {
   height: 6px;
   background-color: #111111;
-  width: 99%;
+  width: 100%;
 }
 .key-pad {
-  height: 285px;
+  height: 286px;
   color: black;
   display: flex;
   flex-wrap: wrap;
@@ -98,7 +98,7 @@ p {
 }
 
 .key {
-  width: 73px;
+  width: 72.5px;
   height: 57px;
   color: white;
   background-color: #111111;

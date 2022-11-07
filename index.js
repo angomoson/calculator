@@ -58,6 +58,7 @@ const division = () => {
 };
 const cl = () => {
   document.getElementsByClassName("display")[0].innerText = "";
+  document.getElementsByClassName("temp-display")[0].innerText = "";
 };
 
 const mod = () => {
@@ -76,12 +77,15 @@ const point = () => {
   document.getElementsByClassName("display")[0].innerText = temp + ".";
 };
 
-let ans = "";
 const equal = () => {
-  document.getElementsByClassName("temp-display")[0].innerText = ans;
   const temp = document.getElementsByClassName("display")[0].textContent;
-  ans = eval(temp);
-  document.getElementsByClassName("display")[0].innerText = ans;
+  if (temp !== "") {
+    document.getElementsByClassName("temp-display")[0].innerText = temp;
+    const ans = eval(temp);
+    document.getElementsByClassName("display")[0].innerText = ans;
+  } else {
+    document.getElementsByClassName("display")[0].innerText = "";
+  }
 };
 
 // theme @
