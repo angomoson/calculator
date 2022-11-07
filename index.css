@@ -21,7 +21,7 @@ p {
   width: 305px;
   height: 600px;
   background-color: black;
-  border-radius: 50px;
+  border-radius: 53px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,13 +31,26 @@ p {
   width: 290px;
   height: 585px;
   background-color: white;
-  border-radius: 45px;
+  border-radius: 47px;
 }
 
 .sc-line {
+  height: 25px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myDay {
+  color: gray;
+  margin-top: 2px;
+  width: 87px;
   display: flex;
   justify-content: center;
-  flex-direction: block;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
 }
 .line {
   width: 85px;
@@ -45,6 +58,17 @@ p {
   background-color: black;
   border-radius: 10px;
   margin-top: 5px;
+}
+
+.myDate {
+  color: gray;
+  margin-top: 2px;
+  width: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .calc {
@@ -117,11 +141,11 @@ p {
 }
 
 .equal-to {
-  border-bottom-right-radius: 35px;
+  border-bottom-right-radius: 43px;
 }
 
 .at-the-r {
-  border-bottom-left-radius: 35px;
+  border-bottom-left-radius: 43px;
 }
 
 /* toggle color */

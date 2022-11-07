@@ -101,3 +101,37 @@ const changeTheme = () => {
     element.classList.toggle("theme-white");
   }
 };
+
+// date and time
+const DAY = new Map();
+DAY.set(0, "Sunday");
+DAY.set(1, "Monday");
+DAY.set(2, "Tuesday");
+DAY.set(3, "Wednesday");
+DAY.set(4, "Thursday");
+DAY.set(5, "Friday");
+DAY.set(6, "Saturday");
+
+const date = new Date();
+const day = date.getDay();
+document.getElementsByClassName("myDay")[0].innerText = DAY.get(day);
+
+const MONTH = new Map();
+MONTH.set(0, "Jan");
+MONTH.set(1, "Feb");
+MONTH.set(2, "Mar");
+MONTH.set(3, "Apr");
+MONTH.set(4, "May");
+MONTH.set(5, "Jun");
+MONTH.set(6, "July");
+MONTH.set(7, "Aug");
+MONTH.set(8, "Sep");
+MONTH.set(9, "Oct");
+MONTH.set(10, "Nov");
+MONTH.set(11, "Dec");
+
+const Day = date.getDate();
+const month = date.getMonth();
+
+const currentDate = `${Day}-${MONTH.get(month)}`;
+document.getElementsByClassName("myDate")[0].innerText = currentDate;
