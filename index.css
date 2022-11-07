@@ -112,7 +112,6 @@ p {
 }
 .key-pad {
   height: 286px;
-  color: black;
   background-color: #111111;
   display: flex;
   flex-wrap: wrap;
